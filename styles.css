@@ -27,3 +27,33 @@ input, textarea {
   width: 40px;
   height: 40px;
 }
+
+@media screen and (max-width: 992px) {
+  body {
+    background-image: none;
+  }
+  .navbar {
+    display: none;
+  }
+  .d-lg-none {
+    display: flex;
+    gap: 120px;
+  }
+  .first-row {
+    display: flex;
+    flex-direction: column;
+  }
+  .second-row {
+    display: flex;
+    flex-direction: column;
+  }
+  .lessons {
+    display: flex;
+    flex-direction: column;
+  }
+  .form-area {
+    display: flex;
+    flex-direction: column;
+  }
+
+}
