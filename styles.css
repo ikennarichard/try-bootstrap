@@ -1,8 +1,19 @@
-* {
-  border: 1px solid;
-}
-
 a {
   text-decoration: none;
 }
 
+.card {
+  padding-inline: 0;
+}
+
+input, textarea {
+  padding: 9px;
+  border: none;
+  outline: 1px solid gainsboro;
+  border-radius: .2em;
+}
+
+.card-image-top {
+  width: 100%;
+  height: 242px;
+}

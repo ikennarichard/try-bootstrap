@@ -8,21 +8,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ikenna Richard</title>
 </head>
-<body class="d-flex flex-column gap-5">
+<body class="d-flex flex-column gap-5 align-items-center">
   <header class="d-lg-none">
     <h1 class="heading"><a href="index.html">Welcome</a></h1>
     <img src="./img/hamburger-icon.svg" alt="navigation menu" class="hamburger_icon">
   </header>
 
-  <nav>
+  <nav class="navbar">
     <ul class="nav justify-content-center gap-3 text-center pt-2 fw-bold fs-5">
-      <li><a href="#portfolio" class="link-dark">Portfolio</a></li>
-      <li><a href="#about" class="link-dark">About</a></li>
-      <li><a href="#contact" class="link-dark">Contact</a></li>
+      <li class="nav-item"><a href="#portfolio" class="nav-link link-dark">Portfolio</a></li>
+      <li  class="nav-item"><a href="#about" class="nav-link link-dark">About</a></li>
+      <li  class="nav-item"><a href="#contact" class="nav-link link-dark">Contact</a></li>
   </ul>
   </nav>
 
-  <main class="container mt-5">
+  <main class="container mt-5 d-flex flex-column align-items-center gap-3">
     <section class="d-flex text-center flex-column align-items-center">
       <h2>Hey there. I’m Mariane.<br>
         I’m a software developer</h2>
@@ -39,7 +39,203 @@
 
       <button class="next_button"><img src="./icons/arrow-icon.svg" alt="down_arrow_icon"></button>
     </section>
+
+    <section class="container mt-5">
+      <h2 class="recent_works text-center">My Recent Works<span class="line"></span></h2>
+      <div class="row gap-3 mt-5">
+        <!-- first article -->
+      <article class="card col d-flex align-items-center pb-5">
+          <div class="card-image-top bg-light"></div>
+          <div class="project_details d-flex flex-column align-items-center">
+              <h2 class="text-center mt-3">Multi-Post Stories<br>Gain + Glory</h2>
+              <ul class="card-body list-unstyled d-flex justify-content-center gap-2">
+                  <li>Ruby on rails</li>
+                  <li>css</li>
+                  <li>Javascript</li>
+                  <li>html</li>
+              </ul>
+              <a href="#">See Project</a>
+          </div>
+      </article>
+      <!-- second article -->
+      <article class="card col d-flex align-items-center">
+        <div class="card-image-top bg-light"></div>
+        <div class="project_details d-flex flex-column align-items-center">
+            <h2 class="text-center mt-3">Multi-Post Stories<br>Gain + Glory</h2>
+            <ul class="card-body list-unstyled d-flex justify-content-center gap-2">
+                <li>Ruby on rails</li>
+                <li>css</li>
+                <li>Javascript</li>
+                <li>html</li>
+            </ul>
+            <a href="#" class="m-auto">See Project</a>
+        </div>
+    </article>
+<!-- third article -->
+<article class="card col d-flex align-items-center">
+  <div class="card-image-top bg-light"></div>
+  <div class="project_details d-flex flex-column align-items-center">
+      <h2 class="text-center mt-3">Multi-Post Stories<br>Gain + Glory</h2>
+      <ul class="card-body list-unstyled d-flex justify-content-center gap-2">
+          <li>Ruby on rails</li>
+          <li>css</li>
+          <li>Javascript</li>
+          <li>html</li>
+      </ul>
+      <a href="#" class="m-auto">See Project</a>
+  </div>
+</article>
+</div>
+<!-- second row -->
+<div class="row gap-3 mt-2">
+  <!-- fourth project -->
+  <article class="card col d-flex align-items-center pb-5">
+    <div class="card-image-top bg-light"></div>
+    <div class="project_details d-flex flex-column align-items-center">
+        <h2 class="text-center mt-3">Multi-Post Stories<br>Gain + Glory</h2>
+        <ul class="card-body list-unstyled d-flex justify-content-center gap-2">
+            <li>Ruby on rails</li>
+            <li>css</li>
+            <li>Javascript</li>
+            <li>html</li>
+        </ul>
+        <a href="#" class="m-auto">See Project</a>
+    </div>
+</article>
+<!-- fifth project -->
+<article class="card col d-flex align-items-center">
+  <div class="card-image-top bg-light"></div>
+  <div class="project_details d-flex flex-column align-items-center">
+      <h2 class="text-center mt-3">Multi-Post Stories<br>Gain + Glory</h2>
+      <ul class="card-body list-unstyled d-flex justify-content-center gap-2">
+          <li>Ruby on rails</li>
+          <li>css</li>
+          <li>Javascript</li>
+          <li>html</li>
+      </ul>
+      <a href="#" class="m-auto">See Project</a>
+  </div>
+</article>
+<!-- sixth project -->
+<article class="card col d-flex align-items-center">
+  <div class="card-image-top bg-light"></div>
+  <div class="project_details d-flex flex-column align-items-center">
+      <h2 class="text-center mt-3">Multi-Post Stories<br>Gain + Glory</h2>
+      <ul class="card-body list-unstyled d-flex justify-content-center gap-2">
+          <li>Ruby on rails</li>
+          <li>css</li>
+          <li>Javascript</li>
+          <li>html</li>
+      </ul>
+      <a href="#" class="m-auto">See Project</a>
+  </div>
+</article>
+</div>
+</section>
+
+<section class="d-flex flex-column align-items-center py-5">
+  <h3>About me</h3>
+  <p class="aboutme_text text-center w-75">
+      I can help you build a product , feature or website. Look through some of my work and experience! If you like what you see and have a project you need coded,<br>
+      don’t hestiate to contact me.
+  </p>
+  <a href="#" download="my_resume" class="resume">Get My Resume</a>
+</section>
+
+<ul class="d-flex gap-5 list-unstyled">
+  <li class="card border border-primary px-3 pt-5">
+      <div class="d-flex flex-column align-items-center">
+          <div class="circle">
+              <img src="./icons/languages.svg" alt="">
+          </div>
+          <div class="d-flex flex-column align-items-center mt-5">
+              <b>Languages</b>
+              <ul class="d-flex list-unstyled gap-1">
+                  <li>JavaScript</li>
+                  <li>Ruby</li>
+                  <li>Html</li>
+                  <li>CSS</li>
+              </ul>
+          </div>
+      </div>
+  </li>
+
+      <li class="card border border-primary px-3 pt-5">
+          <div class="frameworks">
+              <div class="circle">
+                  <img src="./icons/framework.svg" alt="">
+              </div>
+              <div class="d-flex flex-column align-items-center mt-5">
+                  <b>Frameworks</b>
+                  <ul class="list-unstyled d-flex gap-1">
+                      <li>Bootstrap</li>
+                      <li>Ruby on rails</li>
+                      <li>RSpec</li>
+                      
+                  </ul>
+
+                  <ul class="list-unstyled d-flex justify-content-center gap-1">
+                      <li>Capybara</li>
+                      <li>Selenium</li>
+                  </ul>
+              </div>
+          </div>
+      </li>
+
+      <li class="card border border-primary px-3 pt-5">
+          <div class="skills">
+              <div class="circle">
+                  <img src="./icons/skills.svg" alt="">
+              </div>
+              <div class="d-flex flex-column align-items-center mt-5 pb-4">
+                  <b>Skills</b>
+                  <ul class="list-unstyled d-flex justify-content-center gap-1">
+                      <li>Codekit</li>
+                      <li>Github</li>
+                      <li>Codepen</li>
+                      <li>Gitlab</li>
+                  </ul>
+                  
+                  <ul class="list-unstyled d-flex justify-content-center gap-1">
+                      <li>Terminal</li>
+                  </ul>
+              </div>
+          </div>
+      </li>
+</ul>
+
+<div class="container">
+  <div class="row">
+  <div class="col">
+      <b class="fs-1">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</b>
+  </div>
+
+  <div class="col">
+      <form action="https://formspree.io/f/xbjeoyol" method="post" class="d-flex flex-column gap-3">
+          <label for="fullname" class="form-label" hidden>Fullname</label>
+          <input id="fullname" type="text" placeholder="Full name" name="fullname" maxlength="30" required>
+          <label for="email" hidden>Email</label>
+          <input id="email" type="email" placeholder="Email Address" name="email" required>
+          <label for="message" hidden>Message</label>
+          <textarea id="message" name="message" placeholder="Enter text here" maxlength="500" required></textarea>
+          <button class="align-self-start btn btn-success">Get in touch</button>
+      </form>
+  </div>
+</div>
+</div>
   </main>
+
+  <footer class="d-flex flex-column align-items-center">
+    <ul class="d-flex list-unstyled gap-3">
+        <li><a href=""><img src="./icons/twitter.svg" alt="twitter icon"></a></li>
+        <li><a href=""><img src="./icons/linkedin-icon.svg" alt="linked icon"></a></li>
+        <li><a href=""><img src="./icons/medium.svg" alt="medium icon"></a></li>
+        <li><a href=""><img src="./icons/github.svg" alt="github icon"></a></li>
+        <li><a href=""><img src="./icons/angellist.svg" alt="angellist icon"></a></li>
+    </ul>
+
+    <address><a href="mailto:oguejioforrichard@gmail.com" class="text-secondary">oguejioforrichard@gmail.com</a></address>
+</footer>
 
 
 
