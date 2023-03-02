@@ -6,7 +6,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ikenna Richard</title>
+  <title>Bootstrap Portfolio</title>
 </head>
 <body class="d-flex flex-column gap-5 align-items-center">
   <header class="d-lg-none">
@@ -22,14 +22,14 @@
   </ul>
   </nav>
 
-  <main class="container mt-5 d-flex flex-column align-items-center gap-3">
+  <main class="container mt-5 d-flex flex-column align-items-center gap-5">
     <section class="d-flex text-center flex-column align-items-center">
-      <h2>Hey there. I’m Mariane.<br>
-        I’m a software developer</h2>
-        <p class="w-75">
+      <h2 class="fs-1 fw-bold">Hey there. I’m Mariane.<br>
+        <span>I’m a software developer</span></h2>
+        <p class="w-75 fs-4">
           I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded,don’t hestiate to contact me.
         </p>
-        <ul class="d-flex justify-content-center list-unstyled gap-2">
+        <ul class="d-flex justify-content-center list-unstyled gap-4">
           <li><a href=""><img src="./icons/twitter.svg" alt="twitter icon"></a></li>
           <li><a href=""><img src="./icons/linkedin-icon.svg" alt="linked icon"></a></li>
           <li><a href=""><img src="./icons/medium.svg" alt="medium icon"></a></li>
@@ -37,11 +37,11 @@
           <li><a href=""><img src="./icons/angellist.svg" alt="angellist icon"></a></li>
       </ul>
 
-      <button class="next_button"><img src="./icons/arrow-icon.svg" alt="down_arrow_icon"></button>
+      <button class="next_button border rounded-circle"><img src="./icons/arrow-icon.svg" alt="down_arrow_icon" class=""></button>
     </section>
 
     <section class="container mt-5">
-      <h2 class="recent_works text-center">My Recent Works<span class="line"></span></h2>
+      <h2 class="recent_works text-center fw-bold">My Recent Works<span class="line"></span></h2>
       <div class="row gap-3 mt-5">
         <!-- first article -->
       <article class="card col d-flex align-items-center pb-5">
@@ -54,7 +54,7 @@
                   <li>Javascript</li>
                   <li>html</li>
               </ul>
-              <a href="#">See Project</a>
+              <a href="#" class="btn-success p-2 rounded">See Project</a>
           </div>
       </article>
       <!-- second article -->
@@ -68,7 +68,7 @@
                 <li>Javascript</li>
                 <li>html</li>
             </ul>
-            <a href="#" class="m-auto">See Project</a>
+            <a href="#" class="btn-success p-2 rounded">See Project</a>
         </div>
     </article>
 <!-- third article -->
@@ -82,7 +82,7 @@
           <li>Javascript</li>
           <li>html</li>
       </ul>
-      <a href="#" class="m-auto">See Project</a>
+      <a href="#" class="btn-success p-2 rounded">See Project</a>
   </div>
 </article>
 </div>
@@ -99,7 +99,7 @@
             <li>Javascript</li>
             <li>html</li>
         </ul>
-        <a href="#" class="m-auto">See Project</a>
+        <a href="#" class="btn-success p-2 rounded">See Project</a>
     </div>
 </article>
 <!-- fifth project -->
@@ -113,7 +113,7 @@
           <li>Javascript</li>
           <li>html</li>
       </ul>
-      <a href="#" class="m-auto">See Project</a>
+      <a href="#" class="btn-success p-2 rounded">See Project</a>
   </div>
 </article>
 <!-- sixth project -->
@@ -127,30 +127,30 @@
           <li>Javascript</li>
           <li>html</li>
       </ul>
-      <a href="#" class="m-auto">See Project</a>
+      <a href="#" class="m-auto btn-success p-2 rounded">See Project</a>
   </div>
 </article>
 </div>
 </section>
 
 <section class="d-flex flex-column align-items-center py-5">
-  <h3>About me</h3>
-  <p class="aboutme_text text-center w-75">
+  <h3 class="fs-1 fw-bold">About me</h3>
+  <p class="aboutme_text text-center w-75 fs-3">
       I can help you build a product , feature or website. Look through some of my work and experience! If you like what you see and have a project you need coded,<br>
       don’t hestiate to contact me.
   </p>
-  <a href="#" download="my_resume" class="resume">Get My Resume</a>
+  <a href="#" download="my_resume" class="btn-success p-2 rounded">Get My Resume</a>
 </section>
 
 <ul class="d-flex gap-5 list-unstyled">
-  <li class="card border border-primary px-3 pt-5">
+  <li class="card px-3 pt-5">
       <div class="d-flex flex-column align-items-center">
           <div class="circle">
               <img src="./icons/languages.svg" alt="">
           </div>
           <div class="d-flex flex-column align-items-center mt-5">
               <b>Languages</b>
-              <ul class="d-flex list-unstyled gap-1">
+              <ul class="d-flex list-unstyled gap-1 text-success">
                   <li>JavaScript</li>
                   <li>Ruby</li>
                   <li>Html</li>
@@ -160,21 +160,21 @@
       </div>
   </li>
 
-      <li class="card border border-primary px-3 pt-5">
-          <div class="frameworks">
+      <li class="card px-3 pt-5">
+          <div class="d-flex flex-column align-items-center">
               <div class="circle">
                   <img src="./icons/framework.svg" alt="">
               </div>
               <div class="d-flex flex-column align-items-center mt-5">
                   <b>Frameworks</b>
-                  <ul class="list-unstyled d-flex gap-1">
+                  <ul class="list-unstyled d-flex gap-1 text-success">
                       <li>Bootstrap</li>
                       <li>Ruby on rails</li>
                       <li>RSpec</li>
                       
                   </ul>
 
-                  <ul class="list-unstyled d-flex justify-content-center gap-1">
+                  <ul class="list-unstyled d-flex justify-content-center gap-1 text-success">
                       <li>Capybara</li>
                       <li>Selenium</li>
                   </ul>
@@ -182,21 +182,21 @@
           </div>
       </li>
 
-      <li class="card border border-primary px-3 pt-5">
-          <div class="skills">
+      <li class="card px-3 pt-5">
+          <div class="d-flex flex-column align-items-center">
               <div class="circle">
                   <img src="./icons/skills.svg" alt="">
               </div>
               <div class="d-flex flex-column align-items-center mt-5 pb-4">
                   <b>Skills</b>
-                  <ul class="list-unstyled d-flex justify-content-center gap-1">
+                  <ul class="list-unstyled d-flex justify-content-center gap-1 text-success">
                       <li>Codekit</li>
                       <li>Github</li>
                       <li>Codepen</li>
                       <li>Gitlab</li>
                   </ul>
                   
-                  <ul class="list-unstyled d-flex justify-content-center gap-1">
+                  <ul class="list-unstyled d-flex justify-content-center gap-1 text-success">
                       <li>Terminal</li>
                   </ul>
               </div>
